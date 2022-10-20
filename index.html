@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/assets/ScalingSquares-easy/styles.css">
+  <link rel="stylesheet" href="/assets/SunAnimation-easy/styles.css"> 
+  <link rel="stylesheet" href="/assets/IntroductionForm-medium/styles.css">
+  <link rel="stylesheet" href="/assets/ResponsiveShopLayout-hard/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body> 
+  
+<section id="container">
+  
+<nav> 
+  
+  <h2 class="logo">
+    <a href="#container" class="button">Portfo<span>lio</a>
+   </h2>  
+  <ul>
+  <li><a href="#task1">1 Task </a></li>
+  <li><a href="#task2">2 Task </a></li>
+  <li><a href="#task3">3 Task </a></li>
+  <li><a href="#task4">4 Task </a></li>
+  </ul>
+   
+</nav>
+<div class="content">
+  <h4>Hello, my name is</h4>
+  <h1>Patrick <span>Zyskowski</h1>
+  <h3>I'm a Web Developer</h3>
+</div>
+</section>
+
+  <section id="task1"> 
+    
+		<h1 class="header">Scaling Squares</h1>
+    <div class="squares-container">
+      <div class="square square1"></div>
+      <div class="square square2"></div>
+      <div class="square square3"></div>    
+    </div>
+  </section>
+
+  <section id="task2">
+    <div id="sun"></div>
+		<div id="sky"></div>
+		<div id="ground"></div>
+    
+
+  </section>
+  <section id="task3">
+    <form class="form">      
+    
+      <p class="paragraph">Dlaczego chcesz dołączyć do branży IT? *</p>
+               
+      <input type="checkbox" id="answer1A" name="whyIT" value="noHappyJob" checked="checked" class="checkboxInput"  >
+      <label for="answer1A" class="checkboxLabel"> Aktualna praca mnie nie cieszy </label>
+    
+      <input type="checkbox" id="answer1B" name="whyIT" value="earlyProgrammer" class="checkboxInput" checked="checked" >
+      <label for="answer1B"> Za dzieciaka kodowałem </label>
+  
+      <input type="checkbox" id="answer1C" name="WhyIT" value="programmer" class="checkboxInput">
+      <label for="answer1C"> Jestem już programistą </label> 
+  
+      <input type="checkbox" id="answer1D" name="WhyIT" value="likeComputer" class="checkboxInput" > 
+      <label for="answer1D"> Lubię komputery </label>
+    
+    
+      <p class="paragraph">Czy uczyłeś/aś się kodować wcześniej? *</p>
+      
+      <input type="radio" id="answer2A" name="earlyCoding" value="onMyOwn" class="checkboxInput" >
+      <label for="answer2A" class="checkboxLabel"> samodzielnie</label>
+  
+      <input type="radio" id="answer2B" name="earlyCoding" checked="checked" value="bootcamp">
+      <label for="answer2B"> bootcamp</label>
+  
+      <input type="radio" id="answer2C" name="earlyCoding" value="studies">
+      <label for="answer2C"> studia</label>
+  
+      <input type="radio" id="answer2D" name="earlyCoding" value="no">
+      <label for="answer2D"> nie</label>
+    
+      
+      <p class="paragraph">Opisz w kilku zdaniach swoje wrażenia z nauki w innym miejscu.</p>
+  
+      <textarea name="review" class="textarea" cols="78" rows="15" ></textarea>
+  
+    
+    
+      <p class="paragraph">Jaki jest Twój cel zwiazany z nauką ? *</p>  
+    
+    
+    <select class="select" required >
+      <option value="" selected disabled> Wybierz odpowiedź z listy</option>
+      <option>Zmienić pracę</option>
+      <option>Znaleźć lepszą pracę</option>
+      <option>Rozwój w technologii</option>
+      <option>Stworzyć portfolio</option>
+    </select>  
+     
+      <p class="paragraph">Jaką specjalizację chcesz osiągnąć? *</p> 
+  
+      <select class="select" required >
+        <option value="" selected disabled> Wybierz odpowiedź z listy</option>
+        <option>FrontendJS</option>
+        <option>BackendJS</option>
+        <option>Solidity</option>
+        <option>Python</option>
+      </select>
+    
+    <p class="paragraph">Ile godzin tygodniowo możesz poświęcić na naukę? *</p> 
+      
+    <input type="number" min="1" max="12" class="textline">
+    
+    <p class="paragraph">Zaznacz na kalendarzu, kiedy chciałbyś zacząć naukę: *</p>      
+           
+  <table>
+    
+  
+  <div class="calendar">
+  
+  <p>Maj 2022</p>
+  <p>&#10094 &#10095</p>
+  
+  </div> 
+  
+  <tr>
+                  
+  <th>Pn</th>
+  <th>Wt</th>
+  <th>Śr</th>
+  <th>Cz</th>
+  <th>Pt</th>
+  <th>Sb</th>
+  <th>Nd</th>  
+  </tr>
+  
+  <tr>
+  
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+  <td>4</td>
+  <td>5</td>
+  <td>6</td>
+  <td>7</td>
+  </tr>
+  
+  <tr>
+  
+  <td>8</td>
+  <td>9</td>
+  <td>10</td>
+  <td>11</td>
+  <td>12</td>
+  <td>13</td>
+  <td>14</td>
+  </tr>
+  
+  <tr>
+  
+  <td>15</td>
+  <td>16</td>
+  <td>17</td>
+  <td class="tdcolor">18</td>
+  <td>19</td>
+  <td>20</td>
+  <td>21</td>
+  </tr>
+  
+  <tr>
+  
+  <td>22</td>
+  <td>23</td>
+  <td>24</td>
+  <td>25</td>
+  <td>26</td>
+  <td>27</td>
+  <td>28</td>
+  </tr>
+  
+  <tr>
+  
+  <td>29</td>
+  <td>30</td>
+  <th class="thcolor">1</th>
+  <th class="thcolor">2</th>
+  <th class="thcolor">3</th>
+  <th class="thcolor">4</th>
+  <th class="thcolor">5</th>
+  </tr>
+  
+  </table>
+  
+    <p class="paragraph">Podaj swój numer telefonu *</p>  
+    
+    <input type="tel" id="phone" name="phone" required class="textline">
+      
+    <p class="paragraph">Podaj swój adres email *</p>  
+    
+    <input type="email" id="email" name="email" class="textline" placeholder="email@gmail.com">
+      
+  </form> 
+
+  </section>
+  <section id="task4">
+    <div class="cards">
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Samsung-photo.png" alt="samsung photo" class="card-image">       
+      <h2 class="card-title">Smartphone Samsung</h2> 
+      <div class="card-price">4899zł</div>
+     </div>               
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Lens-photo.png" alt="lens photo" class="card-image">  
+      <h2 class="card-title">Obiektyw 35mm</h2>     
+      <div class="card-price">1800zł</div>
+     </div>       
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Sony-photo.png" alt="Sony photo" class="card-image">  
+      <h2 class="card-title">Kamera SONY 1.8 / 19-76</h2>   
+      <div class="card-price">899zł</div> 
+     </div>       
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Gimbal-photo.png" alt="Gimbal photo" class="card-image"> 
+      <h2 class="card-title">GL IDECAM HD - 2000</h2> 
+      <div class="card-price">1450zł</div> 
+     </div>        
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Sennheiser-photo.png" alt="Sennheiser photo" class="card-image">  
+      <h2 class="card-title">SENNHEISER mikrofony</h2>  
+      <div class="card-price">2579zł</div> 
+     </div>       
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Logi-photo.png" alt="Logitech photo" class="card-image"> 
+      <h2 class="card-title">Myszka logitech 75C</h2>    
+      <div class="card-price">350zł</div> 
+     </div>        
+  
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Smartwatch-photo.png" alt="Smartwatch photo" class="card-image"> 
+      <h2 class="card-title">Smartwatch Samsung</h2>    
+      <div class="card-price">200zł</div> 
+     </div>      
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Headphones-photo.png" alt="Headphones photo" class="card-image">  
+      <h2 class="card-title card-title-gray">Słuchawki bezprzewodowe</h2>    
+      <div class="card-price card-price-gray">4899zł</div> 
+     </div>      
+
+      <div class="card">
+      <img src="/assets/ResponsiveShopLayout-hard/assets/Lumix-photo.png" alt="Lumix photo" class="card-image">  
+      <h2 class="card-title card-title-gray">Aparat Lumix GH5</h2>       
+      <div class="card-price card-price-gray">4899zł</div> 
+     </div>       
+  </div> 
+    
+  </section>
+
+  <footer>
+    <div class="socialMedia">
+    <ul>
+    <li><a href="https://pl-pl.facebook.com/" class="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a></li>
+    <li><a href="https://twitter.com/?lang=pl" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a></li>
+    <li><a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>
+    <li><a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a></li>      
+    </ul>
+    </div>
+  </footer>
+  </body>  

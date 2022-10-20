@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/Inter/static/Inter-Regular.ttf") format("truetype");
+}
+
+.form {
+  top: 0;
+  right: 23%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 80px;
+
+  background: linear-gradient(180deg, #ffdbbc 0%, #ffea7f 100%);
+
+  font-family: "Inter";
+}
+
+input[type="checkbox"] + label {
+  display: block;
+
+  margin: 3px;
+  padding: 3px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+
+  content: "\2714";
+  border: 1.5px solid #000;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  margin-right: 4px;
+
+  color: transparent;
+}
+
+input[type="checkbox"]:checked + label:before {
+  border-color: #3547e9;
+
+  background-color: #3547e9;
+
+  color: #fff;
+}
+
+input[type="radio"] + label {
+  display: block;
+
+  margin: 3px;
+  padding: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="radio"] + label:before {
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+
+  content: "\2714";
+  border: 1.5px solid #000;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  margin-right: 4px;
+
+  color: transparent;
+}
+
+input[type="radio"]:checked + label:before {
+  background-color: #3547e9;
+  border-color: #3547e9;
+  color: #fff;
+}
+
+.paragraph {
+  margin-left: 25px;
+
+  font-size: 16px;
+  text-align: left;
+}
+
+.textarea {
+  width: 600px;
+  border-color: #000;
+
+  background-color: transparent;
+}
+
+.textline {
+  width: 600px;
+  height: 20px;
+
+  border-color: #000;
+
+  background-color: transparent;
+
+  font-family: "Inter";
+  color: black;
+}
+
+.select {
+  width: 600px;
+  height: 25px;
+
+  border: 1px solid #000;
+
+  background-color: transparent;
+
+  font-family: "Inter";
+}
+
+.calendar {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 393px;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  border-color: 1px solid #000;
+  border: 1px solid #000;
+
+  font-family: Inter;
+  font-size: 13px;
+}
+
+td,
+th {
+  border: 2px solid black;
+
+  line-height: 22px;
+  text-align: center;
+}
+
+.tdcolor {
+  color: white;
+  background: blue;
+}
+
+.thcolor {
+  color: gray;
+}
+
+select option {
+  color: black;
+}
+
+select:invalid,
+select option[value=""] {
+  color: gray;
+}

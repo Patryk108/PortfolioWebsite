@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+}
+.squares-container {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-around;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+.square {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+  transition-duration: 500ms;
+}
+
+.square:hover {
+  transform: scale(2);
+}
+
+.square1 {
+  left: 25%;
+  top: 35%;
+
+  background-color: red;
+}
+
+.square2 {
+  left: 50%;
+  top: 35%;
+
+  background-color: blue;
+}
+
+.square3 {
+  left: 75%;
+  top: 35%;
+
+  background-color: green;
+
+  transition-duration: 20000ms;
+}
+.square3:hover {
+  transform: scale(100);
+}
