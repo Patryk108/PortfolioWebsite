@@ -10,3 +10,5 @@ Strona zawiera wszystkie poprzednio wykonane zadania
 
 - HTML, CSS
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username= &theme=radical)
+
