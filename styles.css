@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "NeueMontreal";
-  src: url("/assets/NeueMontreal/NeueMontreal-Regular.otf") format("opentype");
+  font-family: "neuemontreal";
+  src: url("/assets/neuemontreal/neuemontreal-regular.otf") format("opentype");
 }
 
 html {
@@ -19,7 +19,7 @@ body {
   height: 100vh;
   width: 100%;
 
-  background-image: url(/assets/wallpaper2.png);
+  background-image: url(/assets/wallpaper.png);
   background-position: center;
   background-size: cover;
 
