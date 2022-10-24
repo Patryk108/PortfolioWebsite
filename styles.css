@@ -1,6 +1,6 @@
 @font-face {
   font-family: "neuemontreal";
-  src: url("./assets/neuemontreal/neuemontreal-regular.otf") format("opentype");
+  src: url("./neuemontreal/neuemontreal-regular.otf") format("opentype");
 }
 
 html {
